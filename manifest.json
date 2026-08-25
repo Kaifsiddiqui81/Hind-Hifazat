@@ -1,0 +1,41 @@
+{
+  "name": "Hind Hifazat SOS",
+  "short_name": "HindHifazat",
+  "description": "Emergency network for medical, safety, and utility responders.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0A0C0E",
+  "theme_color": "#E8362A",
+  "lang": "en",
+  "dir": "ltr",
+  "id": "/?source=pwa",
+  "shortcuts": [
+    {
+      "name": "Report Cyber Fraud",
+      "short_name": "Report Fraud",
+      "description": "File a cyber complaint",
+      "url": "/cyber-suraksha"
+    },
+    {
+      "name": "SOS Dashboard",
+      "short_name": "SOS",
+      "description": "Trigger emergency response",
+      "url": "/"
+    }
+  ],
+  "icons": [
+    {
+      "src": "/icons/hind-hifazat-icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/hind-hifazat-maskable.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ]
+}
